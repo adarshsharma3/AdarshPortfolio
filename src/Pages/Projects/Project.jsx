@@ -58,7 +58,7 @@ const ProjectsPage = () => {
     </div>
     {/* Tooltip positioned at the bottom */}
     <Tooltip 
-      link1="https://github.com/adarshsharma3/Designique-rideHack24v" 
+      link1="https://github.com/adarshsharma3/Designique-rideHack24" 
       link2="https://designique-ride-hack24.vercel.app/"
     />
   </div>
