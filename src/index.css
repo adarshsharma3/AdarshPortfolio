@@ -1,0 +1,133 @@
+@import "tailwindcss";
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+/* Smoke effect */
+@layer base {
+  body {
+      @apply bg-black text-white;
+      font-family: 'M PLUS Rounded 1c', sans-serif; 
+  }
+}
+
+/* Tailwind CSS custom animation classes */
+@keyframes slideFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Slide from the bottom */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-slide-in {
+  animation: slideFadeIn 1s ease-out forwards;
+}
+
+
+@keyframes slideFadeInHeading {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px); /* Slide from the top */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Image Animation */
+@keyframes slideFadeInImage {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px); /* Slide from the left */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-slide-in {
+  animation: slideFadeIn 1s ease-out forwards;
+}
+
+.fade-slide-in-heading {
+  animation: slideFadeInHeading 1s ease-out forwards;
+}
+
+.fade-slide-in-image {
+  animation: slideFadeInImage 1s ease-out forwards;
+}
+
+
+
+@keyframes smoke {
+
+  0% {
+
+    opacity: 0;
+
+    transform: translateY(-20px);
+
+  }
+
+  50% {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+  }
+
+  100% {
+
+    opacity: 1; /* Keep opacity at 1 */
+
+    transform: translateY(0); /* No movement at the end */
+
+  }
+
+}
+
+
+/* Fade-in effect for the text */
+
+.fade-in {
+
+  animation: smoke 1.5s ease-in-out forwards;
+
+}
+
+
+/* styles.css */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 1.5s forwards; /* Adjust duration as needed */
+}
+
+.slide-in-right {
+  animation: slideInRight 1.5s forwards; /* Adjust duration as needed */
+}
