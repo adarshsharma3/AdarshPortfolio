@@ -24,8 +24,8 @@ const ParentComponent = () => {
     { imageSrc: react11, title: 'Java Script' },
     { imageSrc: react12, title: 'Type Script' },
     { imageSrc: react7, title: 'Flask' },
-    { imageSrc: react8, title: 'Postman' },
-    { imageSrc: react9, title: 'App Write' },
+    { imageSrc: react8, title: 'App Write' },
+    { imageSrc: react9, title: 'Postman' },
   ];
 
   return (
