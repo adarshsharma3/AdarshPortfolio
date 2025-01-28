@@ -72,7 +72,7 @@ const ProjectsPage = () => {
 
       {/* Project 3 */}
       <div className="flex p-6 flex-col md:flex-row mb-6">
-      <h3 className="text-xl font-semibold  pb-3">SpaceBooth</h3>
+      <h3 className="text-xl font-semibold underline  pb-3">SpaceBooth</h3>
   <div className="flex-1 w-full md:w-1/3">
     <Card imageSrc={projects[2].imageSrc} title={projects[2].title} />
   </div>
