@@ -30,10 +30,10 @@ const ParentComponent = () => {
   ];
 
   return (
-    <div className="p-6">
+    <div className="p-5">
       <h2 className="font-bold text-3xl text-center">Tech Stack</h2>
-      {/* Grid for cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-3  pt-7">
+      {/* Grid for cards with gap */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 pt-7">
         {cardData3.map((card, index) => (
           <div
             key={index}

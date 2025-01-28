@@ -21,7 +21,7 @@ const Cards = () => {
   return (
     <StyledWrapper>
 
-<h1 className='  sm:text-3xl  mb-5 font-bold  pt-7 '>Click to visit!!!</h1>  
+<h1 className='  sm:text-3xl  mb-5 font-bold  pt-7 pb-11'>Click to visit!!!</h1>  
       <div className="cards">
         <div className="card red">
         <a href="https://github.com/adarshsharma3" target="_blank" rel="noopener noreferrer">
