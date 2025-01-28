@@ -98,7 +98,7 @@ const StyledWrapper = styled.div`
     border-radius: 20px;
     background: rgb(23, 23, 23, 0.7);
     transition: all 0.4s ease-in-out;
-    z-index: -1;
+    // z-index: -1;
   }
 
   .heading {
@@ -109,23 +109,23 @@ const StyledWrapper = styled.div`
     letter-spacing: 0.025em;
   }
 
-//   .heading::before {
-//     content: "";
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     width: 2px;
-//     height: 2px;
-//     border-radius: 50%;
-//     opacity: 1;
-//     box-shadow: 220px 118px #fff, 280px 176px #fff, 40px 50px #fff,
-//       60px 180px #fff, 120px 130px #fff, 180px 176px #fff, 220px 290px #fff,
-//       520px 250px #fff, 400px 220px #fff, 50px 350px #fff, 10px 230px #fff;
-//     z-index: -1;
-//     transition: 1s ease;
-//     animation: 1s glowing-stars linear alternate infinite;
-//     animation-delay: 0s;
-//   }
+  // .heading::before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 2px;
+  //   height: 2px;
+  //   border-radius: 50%;
+  //   opacity: 1;
+  //   box-shadow: 220px 118px #fff, 280px 176px #fff, 40px 50px #fff,
+  //     60px 180px #fff, 120px 130px #fff, 180px 176px #fff, 220px 290px #fff,
+  //     520px 250px #fff, 400px 220px #fff, 50px 350px #fff, 10px 230px #fff;
+  //   z-index: -1;
+  //   transition: 1s ease;
+  //   animation: 1s glowing-stars linear alternate infinite;
+  //   animation-delay: 0s;
+  // }
   .icons::before {
     content: "";
     position: absolute;
