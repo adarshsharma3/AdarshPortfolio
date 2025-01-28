@@ -76,7 +76,7 @@ const StyledWrapper = styled.div`
     margin: 0;
     padding-top:81px;
     padding-left: 5px;
-    font-size: 25px;
+    font-size: 22px;
     color: #000000;
     font-weight: 1000;
   }
