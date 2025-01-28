@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Card from './CardTech'; // Adjust the import path as necessary
+import Card2 from './CardTech'; // Adjust the import path as necessary
 import git from '../../assets/git.png'
 import figma from '../../assets/figma.png'
 
@@ -21,19 +21,19 @@ const Cards = () => {
   return (
     <StyledWrapper>
 
-<h1 className='  sm:text-3xl mb-5 font-bold  pt-7 '>Click to visit!!!</h1>  
+<h1 className='  sm:text-3xl  mb-5 font-bold  pt-7 '>Click to visit!!!</h1>  
       <div className="cards">
         <div className="card red">
         <a href="https://github.com/adarshsharma3" target="_blank" rel="noopener noreferrer">
 
-<Card imageSrc={cardData1.imageSrc} title={cardData1.title} />
+<Card2 imageSrc={cardData1.imageSrc} title={cardData1.title} />
 
 </a>
         </div>
         <div className="card blue">
         <a href="https://drive.google.com/file/d/1nOPlWiJlt7Iv4omPligENPe1TBFvO4MT/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
 
-<Card imageSrc={cardData2.imageSrc} title={cardData2.title} />
+<Card2 imageSrc={cardData2.imageSrc} title={cardData2.title} />
 
 </a>
         </div>

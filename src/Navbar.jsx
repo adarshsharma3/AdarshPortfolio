@@ -21,7 +21,7 @@ const Navbar = ({ onNavClick }) => {
   };
 
   return (
-    <nav className="w-full bg-transparent rounded-b-lg">
+    <nav className=" w-full sm:w-[64vh] sm:bg-black rounded-3xl sm:mx-auto">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-center items-center w-full">
           <div className="flex items-center gap-16 my-4">
@@ -30,7 +30,7 @@ const Navbar = ({ onNavClick }) => {
                 <span>AS</span>
               </div>
             </div>
-            <div className="hidden lg:flex gap-8">
+            <div className="hidden  lg:flex gap-8">
               {navItems.map((item) => (
                 <button 
                   key={item.section}
@@ -62,7 +62,7 @@ const Navbar = ({ onNavClick }) => {
               <button
                 key={item.section}
                 onClick={() => handleNavClick(item.section)}
-                className="text-white hover:text-gray-400 text-left"
+                className="text-black hover:text-gray-400 text-left"
               >
                 {item.name}
               </button>

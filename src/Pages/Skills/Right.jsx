@@ -12,6 +12,7 @@ import react9 from '../../assets/postman.png';
 import react10 from '../../assets/next.png';
 import react11 from '../../assets/JS.png';
 import react12 from '../../assets/TypeScript.png';
+
 const ParentComponent = () => {
   const cardData3 = [
     { imageSrc: react1, title: 'React JS' },
@@ -32,9 +33,12 @@ const ParentComponent = () => {
     <div className="p-6">
       <h2 className="font-bold text-3xl text-center">Tech Stack</h2>
       {/* Grid for cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center pt-7">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-3  pt-7">
         {cardData3.map((card, index) => (
-          <div key={index} className="flex justify-center">
+          <div
+            key={index}
+            className="flex justify-center items-center sm:h-40 sm:w-40 lg:h-48 lg:w-48"
+          >
             <Card imageSrc={card.imageSrc} title={card.title} />
           </div>
         ))}

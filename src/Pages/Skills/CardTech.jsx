@@ -76,7 +76,7 @@ const StyledWrapper = styled.div`
     margin: 0;
     padding-top:81px;
     padding-left: 5px;
-    font-size: 28px;
+    font-size: 25px;
     color: #000000;
     font-weight: 1000;
   }
@@ -98,18 +98,21 @@ const StyledWrapper = styled.div`
         font-size: 15px; /* Adjust font size for smaller screens */
     }
 }
-  /* Commands to change the shadows in dark mode*/
-  @media (prefers-color-scheme: dark) {
-    .card:hover {
-    box-shadow: 0 8px 16spx #000000;
-    }
-       @media (max-width: 640px) {
+
+ @media (max-width: 640px) {
         .card__title {
       padding-top: 43px;
       // padding-left: 5px;
       // padding-right: 18px;
       font-size: 18px; /* Adjust font size for smaller screens */
     }
+
+  /* Commands to change the shadows in dark mode*/
+  @media (prefers-color-scheme: dark) {
+    .card:hover {
+    box-shadow: 0 8px 16spx #000000;
+    }
+      
 
     .card__content {
       padding: 10px; /* Adjust padding for smaller screens */
