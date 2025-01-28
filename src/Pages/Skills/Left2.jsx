@@ -21,7 +21,7 @@ const Cards = () => {
   return (
     <StyledWrapper>
 
-<h1 className='  sm:text-3xl mb-5 font-bold  pt-7 pr-25'>Tools</h1>  
+<h1 className='  sm:text-3xl mb-5 font-bold  pt-7 '>Click to visit!!!</h1>  
       <div className="cards">
         <div className="card red">
         <a href="https://github.com/adarshsharma3" target="_blank" rel="noopener noreferrer">
@@ -107,12 +107,18 @@ const StyledWrapper = styled.div`
   }
    /* Media Query for Small Screens */
   @media (max-width: 640px) {
-    .cards .card {
-      height: 140px;
+    .cards {
+    display: grid; /* Enables grid layout */
+    place-items: center; /* Centers cards horizontally and vertically */
+    height: 38vh; /* Full height of the viewport, if needed */
+    // margin-right:27%;
+}
+
+.cards .card {
+    height: 140px;
     width: 140px;
-    padding-right: 18px;
-    margin-left: -20px; 
-    }  
+    /* Other styles */
+}v
       
   
   `;

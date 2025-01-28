@@ -55,7 +55,7 @@ function App() {
         <div ref={homeRef} className='w-100% min-h-screen overflow-hidden'>
           <Home />
         </div>
-        <div ref={aboutRef} className=' w-100% min-h-screen '>
+        <div ref={aboutRef} className=' w-100% height-[60vh] '>
           <About />
         </div>
       </div>

@@ -41,7 +41,7 @@ const SkillsSection = () => {
         {/* Left Component (1 part of the space) */}
         <div
           ref={leftRef}
-          className={`flex-[1]  sm:flex-[1] p-2 sm:p-4 ml-13 rounded-lg w-full h-full ${leftVisible ? 'slide-in-left' : ''}`}
+          className={`flex-[1]  sm:flex-[1] p-2 sm:p-4  rounded-lg w-full h-full ${leftVisible ? 'slide-in-left' : ''}`}
         >
           <Left />
         </div>

@@ -29,7 +29,7 @@ const About = () => {
     }, []);
 
     return (
-        <div className="h-60% w-full flex flex-col bg-black text-white pt-20 pr-20 overflow-x-hidden">
+        <div className="h-60% w-full flex flex-col bg-black text-white p-14  overflow-x-hidden">
             {/* Heading */}
             <div
                 ref={headingRef}

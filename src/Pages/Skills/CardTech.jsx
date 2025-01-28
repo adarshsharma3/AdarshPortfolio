@@ -91,6 +91,13 @@ const StyledWrapper = styled.div`
     color: #000000;
     line-height: 1.4;
   }
+
+
+  @media (max-width: 600px) {
+    .card__title {
+        font-size: 15px; /* Adjust font size for smaller screens */
+    }
+}
   /* Commands to change the shadows in dark mode*/
   @media (prefers-color-scheme: dark) {
     .card:hover {
