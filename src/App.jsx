@@ -51,11 +51,11 @@ function App() {
       <div className='fixed top-0 left-1/2 py-2 transform -translate-x-1/2 z-10 w-full'>
         <Navbar onNavClick={scrollToSection} />
       </div>
-      <div className='w-screen overflow-hidden bg-black'>
-        <div ref={homeRef} className='w-screen min-h-screen overflow-hidden'>
+      <div className='w-100% overflow-hidden bg-black'>
+        <div ref={homeRef} className='w-100% min-h-screen overflow-hidden'>
           <Home />
         </div>
-        <div ref={aboutRef} className=' w-screen min-h-screen '>
+        <div ref={aboutRef} className=' w-100% min-h-screen '>
           <About />
         </div>
       </div>
