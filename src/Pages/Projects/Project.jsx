@@ -61,17 +61,17 @@ const ProjectsPage = () => {
       <p>Designique is an innovative platform uniting manufacturers, consumers, and customers in a single, seamless space. It simplifies e-commerce by bridging the gap between production and purchasing. Manufacturers showcase their products, customers explore diverse options, and consumers enjoy a tailored experience. Designique fosters collaboration, enhances efficiency, and revolutionizes the way businesses and buyers connect for mutual success.</p>
     </div>
     {/* Tooltip positioned at the bottom */}
-   
+    <Tooltip 
+      link1="https://github.com/adarshsharma3/Designique-rideHack24" 
+      link2="https://designique-ride-hack24.vercel.app/"
+    /> 
   </div>
 
   <div className="flex-1 w-full md:w-1/3 pt-4">
     <Card imageSrc={projects[1].imageSrc} title={projects[1].title} />
   </div>
 
-  <Tooltip 
-      link1="https://github.com/adarshsharma3/Designique-rideHack24" 
-      link2="https://designique-ride-hack24.vercel.app/"
-    />
+
 </div>
 
       {/* Project 3 */}
