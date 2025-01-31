@@ -21,7 +21,7 @@ const Cards = () => {
   return (
     <StyledWrapper>
 <div className=''>
-<h1 className='  sm:text-3xl  mb-5 font-bold  pt-7 pb-11'>Click to visit!!!</h1>  
+<h1 className='text-3xl  font-bold  pt-8 mb-6 pb-11'>Click to visit!!!</h1>  
 </div>
       <div className="cards">
         <div className="card mx-auto red ">
