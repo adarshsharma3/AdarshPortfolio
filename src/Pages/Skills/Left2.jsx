@@ -24,14 +24,14 @@ const Cards = () => {
 <h1 className='  sm:text-3xl  mb-5 font-bold  pt-7 pb-11'>Click to visit!!!</h1>  
 </div>
       <div className="cards">
-        <div className="card red">
+        <div className="card mx-auto red ">
         <a href="https://github.com/adarshsharma3" target="_blank" rel="noopener noreferrer">
 
 <Card2 imageSrc={cardData1.imageSrc} title={cardData1.title} />
 
 </a>
         </div>
-        <div className="card blue">
+        <div className="card mx-auto blue">
         <a href="https://drive.google.com/file/d/1nOPlWiJlt7Iv4omPligENPe1TBFvO4MT/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
 
 <Card2 imageSrc={cardData2.imageSrc} title={cardData2.title} />
