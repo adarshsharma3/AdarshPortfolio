@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Tooltip = ({ link1, link2 }) => {
   return (
     <StyledWrapper>
-      <ul className="example-2">
+      <ul className="example-2 p-5">
         <li className="icon-content">
           <a href={link2} aria-label="LinkedIn" data-social="linkedin">
             <div className="filled" />

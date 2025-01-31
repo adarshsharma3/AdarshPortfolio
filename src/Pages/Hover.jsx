@@ -43,7 +43,7 @@ const StyledWrapper = styled.div`
   .card {
     position: relative;
     width: 19em;
-    height: 25em;
+    height: 28.7em;
     display: flex;
     flex-direction: column;
     align-items: center;

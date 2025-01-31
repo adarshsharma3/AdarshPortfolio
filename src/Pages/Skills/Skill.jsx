@@ -34,7 +34,7 @@ const SkillsSection = () => {
   return (
     <div className="flex flex-col items-center p-6 bg-transparent h-full">
       {/* Heading */}
-      <h2 className="text-6xl font-bold text-center">Skills</h2>
+      <h2 className="text-3xl sm:text-6xl font-bold text-center">Skills</h2>
 
       {/* Flexbox Container */}
       <div className="flex flex-col sm:flex-row w-full gap-4 h-full">

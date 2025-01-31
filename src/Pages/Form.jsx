@@ -95,7 +95,7 @@ const Form = () => {
 
     <StyledWrapper>
 
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form " onSubmit={handleSubmit}>
 
         <p id="heading">Let's Have a Chat</p>
 
@@ -113,7 +113,7 @@ const Form = () => {
 
             onChange={handleChange}
 
-            className="input-field"
+            className="input-field "
 
             type="text"
 
@@ -195,8 +195,8 @@ const LoaderWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10px;
-    // padding-left: 2em;
-    // padding-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
     padding-bottom: 0.4em;
     background-color: #171717;
     border-radius: 25px;
@@ -252,7 +252,11 @@ const LoaderWrapper = styled.div`
 
   .button3 {
     margin-bottom: 3em;
-    padding: 0.5em;
+    // padding-right:2em;
+    // padding-left: 2em;
+    padding: 0.4em;
+    margin-left:5em;
+    margin-right: 5em;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -262,8 +266,8 @@ const LoaderWrapper = styled.div`
   }
 
   .button3:hover {
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: black;
   }
 `;
 

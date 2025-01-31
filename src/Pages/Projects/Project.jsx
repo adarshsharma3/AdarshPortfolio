@@ -28,12 +28,13 @@ const ProjectsPage = () => {
 
   return (
     <div className="p-6 sm:ml-10 pr-11">
-      <h2 className="text-3xl font-bold text-center mb-6">My Projects</h2>
+      <h2 className="text-3xl sm:text-6xl font-bold text-center mb-6">My Projects</h2>
 
       {/* Project 1 */}
+      <h3 className="text-xl text-center font-semibold  underline pb-3">Waste-Wise</h3>
       <div className="flex p-6 flex-col md:flex-row mb-6">
 
-      <h3 className="text-xl  font-semibold  underline pb-3">Waste-Wise</h3>
+      
   <div className="flex-1 w-full md:w-1/3 ">
     <Card imageSrc={projects[0].imageSrc} title={projects[0].title} />
   </div>
@@ -51,28 +52,33 @@ const ProjectsPage = () => {
 </div>
 
       {/* Project 2 */}
+      <h3 className="text-xl text-center font-semibold  underline pb-3">Designique</h3>
       <div className="flex p-6 flex-col md:flex-row mb-6">
  
   <div className="flex-1 pl-4 w-full md:w-2/3 flex flex-col justify-between"> {/* Added flex and justify-between */}
     <div>
-      <h3 className="text-xl font-semibold  underline  pb-3">Designique</h3>
+      {/* <h3 className="text-xl font-semibold  underline  pb-3">Designique</h3> */}
       <p>Designique is an innovative platform uniting manufacturers, consumers, and customers in a single, seamless space. It simplifies e-commerce by bridging the gap between production and purchasing. Manufacturers showcase their products, customers explore diverse options, and consumers enjoy a tailored experience. Designique fosters collaboration, enhances efficiency, and revolutionizes the way businesses and buyers connect for mutual success.</p>
     </div>
     {/* Tooltip positioned at the bottom */}
-    <Tooltip 
+   
+  </div>
+
+  <div className="flex-1 w-full md:w-1/3 pt-4">
+    <Card imageSrc={projects[1].imageSrc} title={projects[1].title} />
+  </div>
+
+  <Tooltip 
       link1="https://github.com/adarshsharma3/Designique-rideHack24" 
       link2="https://designique-ride-hack24.vercel.app/"
     />
-  </div>
-
-  <div className="flex-1 w-full md:w-1/3">
-    <Card imageSrc={projects[1].imageSrc} title={projects[1].title} />
-  </div>
 </div>
 
       {/* Project 3 */}
+
+      <h3 className="text-xl text-center font-semibold  underline pb-3">SpaceBooth</h3>
       <div className="flex p-6 flex-col md:flex-row mb-6">
-      <h3 className="text-xl font-semibold underline  pb-3">SpaceBooth</h3>
+      
   <div className="flex-1 w-full md:w-1/3">
     <Card imageSrc={projects[2].imageSrc} title={projects[2].title} />
   </div>
@@ -84,7 +90,7 @@ const ProjectsPage = () => {
     {/* Tooltip positioned at the bottom */}
     <Tooltip 
       link1="https://github.com/adarshsharma3/SpaceBooth" 
-      link2=""
+      link2="https://github.com/adarshsharma3/SpaceBooth"
     />
   </div>
 </div>

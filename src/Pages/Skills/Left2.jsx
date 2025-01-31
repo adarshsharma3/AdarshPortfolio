@@ -20,8 +20,9 @@ const Cards = () => {
 
   return (
     <StyledWrapper>
-
+<div className=''>
 <h1 className='  sm:text-3xl  mb-5 font-bold  pt-7 pb-11'>Click to visit!!!</h1>  
+</div>
       <div className="cards">
         <div className="card red">
         <a href="https://github.com/adarshsharma3" target="_blank" rel="noopener noreferrer">
@@ -48,7 +49,7 @@ const StyledWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
+     }
 
   .cards .red {
     background-color:rgb(240, 228, 204);

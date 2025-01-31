@@ -60,14 +60,14 @@ const About = () => {
                     ref={contentRef}
                     className={`md:flex-1 flex flex-col justify-start overflow-y-auto h-full mt-8 ${
                         isVisible ? 'fade-slide-in' : ''
-                    }`}
+                    }`}s
                 >
                     <h1 className="text-2xl font-bold mb-4">Hey There!</h1>
                     <p className="mb-4">
                         I'm <strong>Adarsh Sharma</strong>, a passionate Web Developer with a love for problem-solving and UI/UX designing. 
                     </p>
                     <p className="mb-4">
-                        Currently pursuing Computer Science Engineering at <strong>JIIT Noida</strong> with a current CGPA of <strong>7.7</strong>.
+                        Currently pursuing Computer Science Engineering at <strong>JIIT Noida</strong> .
                     </p>
                     <p className="mb-4">
                         When I'm not coding or designing user interfaces, you'll find me engaged in sports. I'm excited to connect and explore new opportunities!
