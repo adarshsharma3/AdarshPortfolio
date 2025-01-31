@@ -11,17 +11,17 @@ const ProjectsPage = () => {
   const projects = [
     {
       imageSrc: project1Image,
-      title: 'Please Check links on right  to view more!',
+      title: 'Please Check links to view more!',
       description: '',
     },
     {
       imageSrc: project2Image,
-      title: 'Please Check links on left  to view more!',
+      title: 'Please Check links to view more!',
       description: '.',
     },
     {
       imageSrc: project3Image,
-      title: 'Please Check links on right  to view more!',
+      title: 'Please Check links to view more!',
       description: '',
     },
   ];
